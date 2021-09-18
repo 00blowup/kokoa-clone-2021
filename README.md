@@ -2,3 +2,4 @@
 
 2021/09/16: Login screen done!<br/>
 2021/09/18: Friends screen done!<br/>
+2021/09/18: Chats screen done!<br/>
