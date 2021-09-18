@@ -1,0 +1,49 @@
+.find__menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 15px 10px;
+}
+
+.find__menu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.find__menu__text {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+#id-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 3.5px black;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  font-weight: 600;
+}
+
+.find__open-chat .grey-header {
+  padding-bottom: 10px;
+}
+
+#find__recommendation-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  font-size: 14px;
+}
+
+#find__recommendation-body span {
+  color: #9b9b9b;
+}

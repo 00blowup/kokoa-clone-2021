@@ -1,0 +1,9 @@
+.grey-header {
+  display: flex;
+  justify-content: space-between;
+  color: #9b9b9b;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 12px;
+  border-top: solid 1px #ececec;
+}

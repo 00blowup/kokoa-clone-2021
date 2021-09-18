@@ -19,23 +19,6 @@
   font-size: 10px;
 }
 
-.friends-screen {
-  padding: 0px 20px;
-}
-
-.friends-screen__channel {
-  border-top: solid 1px #ececec;
-}
-
-.friends-screen__channel__header {
-  display: flex;
-  justify-content: space-between;
-  color: #9b9b9b;
-  font-size: 12px;
-  font-weight: 600;
-  padding-top: 12px;
-}
-
 .fa-chevron-up {
   color: #b4b4b4;
 }

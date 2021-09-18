@@ -42,3 +42,18 @@
   left: 23px;
   bottom: 15px;
 }
+
+.nav__btn {
+  position: realtive;
+}
+
+#search-selected {
+  height: 15px;
+  width: 15px;
+  display: box;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}

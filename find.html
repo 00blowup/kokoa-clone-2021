@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!--wifi icon-->
+        <i class="fas fa-wifi"></i>
+        </svg>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!--Battery Icon-->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!--Lightening Icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class= "screens-header">
+      <h1 class="screens-header__title">Find</h1>
+      <div class="screens-header__icons">
+        <span>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </span>
+        <span>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="find__menu">
+            <div class="find__menu__item">
+                <i class="fas fa-qrcode fa-2x"></i>
+                <span class="find__menu__text">QR Code</span>
+            </div>
+            <div class="find__menu__item">
+                <i class="far fa-address-book fa-2x"></i>
+                <span class="find__menu__text">Add by<br/>Contacts</span>
+            </div>
+            <div class="find__menu__item">
+                <span id="id-btn">ID</span>
+                <span class="find__menu__text">Add by ID</span>
+            </div>
+            <div class="find__menu__item">
+                <i class="far fa-envelope fa-2x"></i>
+                <span class="find__menu__text">Invite</span>
+            </div>
+        </div>
+        <div class="find__recommendation">
+            <div class="grey-header">
+                <span>Recommended Friends</span>
+            </div>
+            <div id="find__recommendation-body">
+                <span>You have no recommended friends.</span>
+            </div>
+        </div>
+        <div class="find__open-chat">
+            <div class="grey-header">
+                <span>Open Chat</span>
+                <span class="light-grey">Go to Openchat Home <i class="fas fa-chevron-right light-grey"></i>
+                </span>
+            </div>
+            <div>
+                <div class="openchatroom">
+                    <div class="openchatroom__info">
+                        <span class="openchatroom__info__title">YoungchaYoungcha</span>
+                    <span class="openchatroom__info__tags dark-grey">#stock#invest#getrich</span>
+                    <div class="openchatroom__info__etc">
+                        <img src="https://postfiles.pstatic.net/MjAyMTA5MThfMjY5/MDAxNjMxOTcyODQ3MTAw.gCBXwyCE1OOcCasshoD6kSEenC8FU5rJXuNBNFRqGLQg.FAJQv14JXjux1Pftv8k4VUkQ694e29WblUD4BLsbc_8g.JPEG.haeun_mo/SE-d74a2a04-66d7-42af-8042-ec9b195480b9.jpg?type=w966" class="openchatroom__leader-profileimage"/>
+                        <span class="openchatroom__members dark-grey">999 members</span>
+                        <span class="openchatroom__active">Active</span>
+                    </div>
+                </div>
+                <div class="openchatroom__right-column">
+                    <img src="https://postfiles.pstatic.net/MjAyMTA5MThfMjE0/MDAxNjMxOTcyODM0MTQ2.Pp_6Y72LGGu2sggjMVgWHl9GU0qJSooxvpSqOzS3wwkg.WIViCz0JZAHu4RXJchxA0UjlrCkDZ-Yb8JzpVhuLRBog.JPEG.haeun_mo/SE-0e150f0c-a415-40bd-bba7-3b33cd1b0f1b.jpg?type=w966" class="openchatroom__image"/>
+                    <span class="openchatroom__hearts">
+                        <i class="fas fa-heart size-sm"></i>
+                        999
+                    </span>
+                </div>
+            </div>            
+
+            <div class="openchatroom">
+                <div class="openchatroom__info">
+                    <span class="openchatroom__info__title">Lonely Bunny Chat</span>
+                    <span class="openchatroom__info__tags dark-grey">#bunny#cute#imageonly</span>
+                    <div class="openchatroom__info__etc">
+                        <img src="https://postfiles.pstatic.net/MjAyMTA5MThfMjMz/MDAxNjMxOTcyMzgwMzU1.EE2U199JORfrK6czohPBFLInwAZ2y7vGSt8ji05z8TMg.k7bjp38cLIQDyK2Zqca0OAVvr2utUB6Crapx3QIdo10g.PNG.haeun_mo/%EB%B2%85%EC%8A%A4%EB%B2%84%EB%8B%88.PNG?type=w966" class="openchatroom__leader-profileimage"/>
+                        <span class="openchatroom__members dark-grey">999 members</span>
+                        <span class="openchatroom__active">Active</span>
+                    </div>
+                </div>
+                <div class="openchatroom__right-column">
+                    <img src="https://postfiles.pstatic.net/MjAyMTA5MThfMTEg/MDAxNjMxOTcyODIwMjQz.ffHlMud_8TzaWdrjFWYJK4TI2kk9Xn8BLx-6Q40e1b0g.BOIxu0FvWVSqmnp01JbFGhSOn-2KzoAnmfeo6m52WQog.JPEG.haeun_mo/SE-6bb5e6ae-9588-430d-8488-3b00cabcd689.jpg?type=w966" class="openchatroom__image"/>
+                    <span class="openchatroom__hearts">
+                        <i class="fas fa-heart size-sm"></i>
+                        999
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+            <a class="nav__link" href="friends.html"><i class="far fa-user fa-lg"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+                <span class="notification1 nav__notification1">1</span>
+                <i class="far fa-comment fa-lg"></i></a>
+          </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="find.html"><i class="fas fa-search fa-lg"></i>
+                <span id="search-selected"> </span>
+            </a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#">
+              <div class="nav__notification2"></div>
+              <i class="fas fa-ellipsis-h fa-lg"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/76455550da.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

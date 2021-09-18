@@ -1,5 +1,8 @@
 # Kokoa Clone 2021 Update
 
-2021/09/16: Login screen done!<br/>
-2021/09/18: Friends screen done!<br/>
-2021/09/18: Chats screen done!<br/>
+2021/09/16:<br/>
+Login screen done!<br/>
+2021/09/18:<br/>
+Friends screen done!<br/>
+Chats screen done!<br/>
+Find screen done!<br/>
