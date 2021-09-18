@@ -29,13 +29,13 @@
 
     <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">if you have a Kokoa Account, log in with your email or phone number.</p>
+        <p class="welcome-header__text">if you have a Kokoa Account,<br/> log in with your email or phone number.</p>
     </header>
     <!--There will be many headers in the project so we must add a class.-->
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="Password"/>
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number"/>
+        <input name= "password" type="password" placeholder="Password"/>
         <input type="submit" value="Log In"/>
         <a href="#">Find Kakao Account or Password</a>
         <!--We put the 'find your account' link inside the form
