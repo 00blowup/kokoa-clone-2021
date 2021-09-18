@@ -19,6 +19,10 @@
   font-size: 10px;
 }
 
+.friends-screen {
+  padding: 0px 20px;
+}
+
 .friends-screen__channel {
   border-top: solid 1px #ececec;
 }

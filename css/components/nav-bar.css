@@ -25,20 +25,6 @@
 }
 
 .nav__notification1 {
-  background-color: #ff6229;
-  /*display: block;
-  Since this element is span we made it block
-  then we realized that we have to make it flex.
-  So this line is unnecessary.*/
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  font-size: 12px;
-  color: white;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 10px;
   bottom: 10px;

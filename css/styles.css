@@ -11,8 +11,22 @@
 /*Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
 
 /*Style that affects all the screens*/
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.notification1 {
+  background-color: #ff6229;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
