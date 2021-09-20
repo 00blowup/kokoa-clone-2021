@@ -9,12 +9,14 @@
 @import "components/user-component.css";
 @import "components/grey-header.css";
 @import "components/openchatroom.css";
+@import "components/menu.css";
 
 /*Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 /*Style that affects all the screens*/
 body {
@@ -44,4 +46,8 @@ body {
 
 .dark-grey {
   color: #9b9b9b;
+}
+
+.black {
+  color: black;
 }

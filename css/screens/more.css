@@ -1,0 +1,45 @@
+.more__menu {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  padding: 10px 10px 25px 10px;
+}
+
+.more__menu__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more__menu__text {
+  font-size: 13px;
+}
+
+.more__suggestions {
+  border-top: solid 1px #ececec;
+}
+
+.more__suggestions__main {
+  display: flex;
+}
+
+.suggestions__title {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+.suggestions__item {
+  padding: 0px 10px;
+}
+
+.suggestions-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 15%;
+}
+
+.suggestions__text {
+  font-size: 13px;
+}

@@ -1,0 +1,14 @@
+.menu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__text {
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

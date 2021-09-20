@@ -4,19 +4,7 @@
   padding: 10px 10px 15px 10px;
 }
 
-.find__menu__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .find__menu__text {
-  display: flex;
-  height: 30px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   font-size: 13px;
   padding-top: 10px;
 }
