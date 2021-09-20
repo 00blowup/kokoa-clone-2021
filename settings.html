@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/76455550da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!--wifi icon-->
+        <i class="fas fa-wifi"></i>
+        </svg>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <!--Battery Icon-->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!--Lightening Icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class= "alt-screens-header settings__header">
+        <a href="#" class="alt-screens-header__column">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+        </a>
+        <span class="alt-screens-header__column alt-screens-header__title">Settings</span>
+        <span class="alt-screens-header__column">
+            <svg class="w-6 h-6 search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </span>
+    </header>
+
+    <main class="main-screen settings__main-screen">
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <i class="fas fa-bullhorn"></i>
+                <span>Notices</span>
+            </li>
+            <li class="settings__setting">
+                <i class="fas fa-flask"></i>
+                <span>Kakao Lab</span>
+            </li>
+            <li class="settings__setting settings__version">
+                <div class="settings__setting__column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>    
+                </div>
+                <div class="settings__setting__column dark-grey">
+                    <span>Latest Version</span>
+                </div>
+            </li>
+        </ul>
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <i class="fas fa-lock"></i>
+                <span>Privacy</span>
+            </li>
+            <li class="settings__setting">
+                <i class="far fa-bell"></i>
+                <span>Notifications</span>
+            </li>
+            <li class="settings__setting">
+                <i class="far fa-user"></i>
+                <span>Friends</span>
+            </li>
+            <li class="settings__setting">
+                <i class="far fa-comment"></i>
+                <span>Chats</span>
+            </li>
+            <li class="settings__setting">
+                <i class="far fa-lightbulb"></i>
+                <span>Display</span>
+                <span class="notification1">N</span>
+            </li>
+            <li class="settings__setting settings__themes">
+                <div class="settings__setting__column">
+                    <i class="fas fa-palette"></i>
+                    <span>Themes</span>
+                    <span class="notification1">N</span>
+                </div>
+                <div class="settings__setting__column dark-grey">
+                    <span>Default theme</span>
+                </div>
+            </li>
+            <li class="settings__setting">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call</span>
+            </li>
+        </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+            <a class="nav__link" href="friends.html"><i class="far fa-user fa-lg"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+                <span class="notification1 nav__notification1">1</span>
+                <i class="far fa-comment fa-lg"></i></a>
+          </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="find.html"><i class="fas fa-search fa-lg"></i>
+            </a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <div class="nav__notification2"></div>
+              <i class="fas fa-ellipsis-h fa-lg"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -6,10 +6,12 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screens-header.css";
+@import "components/alt-screens-header.css";
 @import "components/user-component.css";
 @import "components/grey-header.css";
 @import "components/openchatroom.css";
 @import "components/menu.css";
+@import "components/notification.css";
 
 /*Screens*/
 @import "screens/login.css";
@@ -17,23 +19,11 @@
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 
 /*Style that affects all the screens*/
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-.notification1 {
-  background-color: #ff6229;
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  font-size: 12px;
-  color: white;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .main-screen {

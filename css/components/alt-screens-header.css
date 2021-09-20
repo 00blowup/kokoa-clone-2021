@@ -1,0 +1,38 @@
+.alt-screens-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+  padding: 15px 0px 20px 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.alt-screens-header__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.alt-screens-header .w-6 {
+  width: 25px;
+}
+
+.alt-screens-header__column {
+  display: flex;
+  width: 30%;
+}
+
+.alt-screens-header__column:first-child {
+  justify-content: flex-start;
+}
+
+.alt-screens-header__column:nth-child(2) {
+  justify-content: center;
+}
+
+.alt-screens-header__column:last-child {
+  justify-content: flex-end;
+}
+
+.alt-screens-header .hamburger {
+  margin-left: 15px;
+}

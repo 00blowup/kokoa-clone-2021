@@ -1,0 +1,44 @@
+.settings__header {
+  background-color: white;
+}
+
+.settings__main-screen {
+  margin-bottom: 40px;
+}
+
+.settings-list {
+  padding: 20px 10px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.settings-list:first-child {
+  padding-top: 80px;
+}
+
+.settings__setting {
+  padding: 20px 0px;
+  font-size: 17px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+  display: flex;
+}
+
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
+.settings__setting i {
+  margin-right: 15px;
+}
+
+.settings__setting__column {
+  display: flex;
+  width: 50%;
+}
+
+.settings__setting__column:last-child {
+  justify-content: flex-end;
+}
+
+.settings__setting .notification1 {
+  margin-left: 7px;
+}
