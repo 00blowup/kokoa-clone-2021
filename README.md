@@ -10,3 +10,4 @@ Find screen done!<br/>
 <br/>
 2021/09/20:<br/>
 More screen done!<br/>
+Settings screen done!<br/>
