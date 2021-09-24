@@ -8,6 +8,10 @@
   background-color: #abc1d1;
 }
 
+.settings-header {
+  background-color: white;
+}
+
 .alt-screens-header__column {
   width: 30%;
   display: flex;
