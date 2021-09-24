@@ -60,3 +60,30 @@
   text-align: center;
   font-size: 12px;
 }
+
+#splash-screen {
+  color: #3c1e1e;
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  top: 0;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  /*'forwards' : It keeps the last property of the element when the animation is done.*/
+  animation-delay: 2s;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    /*'visibility: hidden;' : We can click throught the element as if there it completely disappeared.*/
+  }
+}

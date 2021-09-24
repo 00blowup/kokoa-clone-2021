@@ -16,4 +16,5 @@ Settings screen done!<br/>
 2021/09/23:<br/>
 Chatroom screen done!<br/>
 <br/>
-<br/>
+2021/09/25:<br/>
+Animations done!<br/>

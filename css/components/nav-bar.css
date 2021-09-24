@@ -31,6 +31,7 @@
   /*When you want to assign the exact position of an item regardless of any other elements
   use POSITION: ABSOLUTE!!!
   left: x px; means the item is x px away from the left end of the closest RELATIVE parent*/
+  animation: notificationAnimation 3s ease-in-out infinite;
 }
 
 .nav__notification2 {
@@ -56,4 +57,16 @@
   position: absolute;
   left: 0px;
   top: 0px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
 }
