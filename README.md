@@ -23,4 +23,4 @@ Animations done!<br/>
 ---Features---<br/>
 You can visit the screens with the navigation bar.<br/>
 You can join the chatroom with 'KakaoTalk' through the Chats screen.<br/>
-You can go into the setting screen with the cog icon in the header.<br/>
+You can go into the settings screen with the cog icon in the header.<br/>
